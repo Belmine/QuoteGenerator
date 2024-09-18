@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    min-height: 300px;
+    width: 100%;
+    max-width: 580px;
+    margin:150px 150px ;
+    box-shadow: 0 3px 10px rgba(28, 27, 27, 0.2);
+    border-radius: 15px;
+    padding: 1rem;
+
+}
+.container h2{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    text-align: center;
+}
+button{
+    background: #2cca34;
+    padding:0.1rem 0.5rem ;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 0 3px 10px rgba(28, 27, 27, 0.2);
+    letter-spacing: 2px;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+
+}
+
+.entete{
+    display: flex;
+    
+    margin:0.8rem ;
+    /* color: #7af56c; */
+}
+
+.citation{
+    margin: 1rem 2rem 0rem 2rem;
+    font-size: 1.2rem;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.auteur{
+    margin: 1rem;
+    position: relative;
+    top : 15px;
+    left: 180px;
+    text-decoration: underline;
+    font-size: 1.1rem;
+
+    
+
+}
